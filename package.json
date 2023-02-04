@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "babel-loader": "^9.1.2",
+    "react": "^18.2.0",
+    "webpack": "^5.75.0",
+    "webpack-pwa-manifest": "^4.3.0"
+  }
+}
