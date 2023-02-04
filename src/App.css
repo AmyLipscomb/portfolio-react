@@ -1,38 +1,180 @@
-.App {
+/* css for the header */
+header {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* To take away the bullets in nav bar */
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+nav {
+  font-family: 'Poiret One', cursive;
+  font-size: 15px;
+  text-align: center;
+
+}
+/* CSS for Menu Button */
+/* .dropdown {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px #d4af7a;
+	z-index: 1;
+	left: 0;
+}
+
+.dropdown li a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown li a:hover {
+	background-color:tan;
+}
+
+.menu:hover .dropdown {
+	display: block;
+}
+
+.menu:hover .menubtn {
+	background-color: tan;
+} */
+/* .almond{
+        color: #F2E2D2;
+  } */
+
+/* css for the body */
+body {
+  background-color: #0D1317;
+  font-family: 'Poiret One', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.almond {
+  color: #f2e2d2
+}
+
+/* This code is to show the mainSlide only */
+.container {
+  height: 100vh;
+  background-color: #0D1317;
+  box-sizing: border-box;
+}
+
+#aboutSlide {
+  height: 100vh;
+  width: 100vw;
+  /*needed to add a 'vw' because we wanted the width, so that it will match the height 'vh' */
+  /* position:absolute; /*needed to make the position absolute so that we could move it all the way to the left
+    left:0; this means it HAS to start at the start of the left-side browser, starting at pixel zero */
+  background-color: #f2e2d2;
+  color: #0D1317;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*; <--do not put a semicolon at the end of the curly brace, will affect the code below it*/
+
+#workSlide {
+  height: 100vh;
+  width: 100vw;
+  /*needed to add a 'vw' because we wanted the width, so that it will match the height 'vh'*/
+  /* position:absolute; /*needed to make the position absolute so that we could move it all the way to the left 
+    left:0; /*this means it HAS to start at the start of the left-side browser, starting at pixel zero */
+  background-color: #0D1317;
+  color: #f2e2d2;
+  box-sizing: border-box;
+  text-align: center !important;
+}
+
+/* CSS for the contact page- page is only showing up at the very bottom. Need to look further into. */
+#Contact-Me{
+  height: 100vh;
+  width: 100vw;
+  background-color: #0D1317;
+  color: #f2e2d2;
+  box-sizing: border-box;
+  text-align: center !important;
+  /* list-style-type: none; */
+  }
+
+/* vertical 'AMY'-mainslide */
+.verticalName {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 100px;
+  font-family: 'Poiret One', cursive;
+  padding-top: 100px;
+  padding-left: 300px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#About-Me,
+#Work {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 3vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card-text {
+  font-size: 1.2rem !important;
+  line-height: 2.5 !important;
+  text-align: justify !important;
+}
+
+.card-title {
+  text-align: justify !important;
+}
+
+
+/* To make the screen readable on all devices */
+/* @media screen and (min-width: 350px) {
+  .verticalName {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* .location {
+          display:flex;
+          flex-direction:column;
+          flex-basis: 70%;
+      } */
+/* }
 
-.App-link {
-  color: #61dafb;
-}
+@media screen and (min-width: 780px) {
+  .verticalName {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  } */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  /* .location {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  } */
+
+
+/* #carouselExampleFade div {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
