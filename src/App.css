@@ -89,8 +89,9 @@ body {
 /*; <--do not put a semicolon at the end of the curly brace, will affect the code below it*/
 
 #workSlide {
-  height: 100vh;
-  width: 100vw;
+  height: 70vh;
+  width: 100vw; 
+    /* Changed this to make the pictures look better */
   /*needed to add a 'vw' because we wanted the width, so that it will match the height 'vh'*/
   /* position:absolute; /*needed to make the position absolute so that we could move it all the way to the left 
     left:0; /*this means it HAS to start at the start of the left-side browser, starting at pixel zero */
@@ -98,19 +99,33 @@ body {
   color: #f2e2d2;
   box-sizing: border-box;
   text-align: center !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-bottom: 3vh; */
 }
 
-/* CSS for the contact page- page is only showing up at the very bottom. Need to look further into. */
+/* CSS for the images */
+#carousel-items{
+  width: 70vw;
+  /* height: 70vh; */
+}
+
+
+/* CSS for the contact page */
 #Contact-Me{
-  height: 100vh;
+  margin-top: 50vh;
+  height: 50vh;
   width: 100vw;
   background-color: #0D1317;
   color: #f2e2d2;
   box-sizing: border-box;
   text-align: center !important;
-  /* list-style-type: none; */
   }
 
+  .Contact-List{
+    list-style-type: none;
+  }
 /* vertical 'AMY'-mainslide */
 .verticalName {
   writing-mode: vertical-rl;
@@ -124,7 +139,8 @@ body {
 
 
 #About-Me,
-#Work {
+#Work,
+#Contact-Title {
   font-size: 30px;
   font-weight: bolder;
   margin-top: 3vh;

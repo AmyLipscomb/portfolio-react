@@ -1,11 +1,11 @@
 const Footer = () => {
     return (
         <section id="Contact-Me">
-        <h3 id="Contact-Me">Contact Me</h3>
+        <h3 id="Contact-Title">Contact Me</h3>
 
         <div>
           <p> Feel free to contact me! </p>
-          <ul>
+          <ul className="Contact-List">
             <li>Email: amy.a.lipscomb@gmail.com</li>
 
 
