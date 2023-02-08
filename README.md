@@ -3,7 +3,7 @@
 
 ## Description
 
-<!-- Webpack is an open-source module bundler for Javascript, and was used to create a text editor that can be found at this [Heroku Deployed Site](https://hidden-harbor-78416.herokuapp.com/). Enjoy! -->
+Creating a porfolio as a web-developer is important, because the website itself showcases the technical skills learned, as well as providing a space to showcase all of the projects that have been completed! My portfolio is a reflection of my coding journey, and has evolved greatly from the first revision. In order to make several changes, I used "React"! Visit my [portfolio](https://amylipscomb.github.io/portfolio-react/) and enjoy! 
 
 
 ----
@@ -20,10 +20,12 @@
 ---
 ## Installation
 
-<!-- After setting up my repo, the first action item I tackled was creating the file structure. Once that was complete, I moved on to installing the npm package- [idb](https://www.npmjs.com/package/idb). To install the package, I typed the following into the command line:
+After setting up my repo, the first action item I tacked was installing what was necessary. I typed the following into the command line:
 ```
- npm i idb
+ npm create react-app portfolio
  ```
+
+This line installed React, and also created the folder "Portfolio" 
 
 Then to start the server, I typed the following command:
 ```
@@ -34,7 +36,7 @@ And to run and build the webpack, I typed the following commands:
 
 ```
 npx webpack; npm run build
-``` -->
+```
 
 
 ---
