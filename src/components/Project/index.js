@@ -17,7 +17,7 @@ const Project = () => {
               className="d-block w-100" alt="flower" />  </a>
             <div className="carousel-caption d-none d-md-block">
               <h5>Password Generator</h5>
-              <p>Do you ever get set sick of thinking of new passwords? Or do you find yourself using the same password for all of your accounts? If either scenario sounds like you, then hopefully you'll find this password-generator helpful!</p>
+              <p>Do you ever get set sick of thinking of new passwords? Or do you find yourself using the same password for all of your accounts? If either scenario sounds like you, then hopefully you'll find this password-generator helpful! The link to my repo is "https://github.com/AmyLipscomb/password-generator".</p>
             </div>
 
           </div>
@@ -27,7 +27,7 @@ const Project = () => {
             </a>
             <div className="carousel-caption d-none d-md-block">
               <h5>Brews & Chews</h5>
-              <p>Brews & Chews is a website designed with both the extrovert and introvert in mind. </p>
+              <p>Brews & Chews is a website designed with both the extrovert and introvert in mind. Check out my repo at "https://github.com/Anthony-Furjanic/brewsandchews".</p>
             </div>
           </div>
           <div className="carousel-item" id="picture3">
@@ -37,7 +37,7 @@ const Project = () => {
           {/* Note- taker app is not working on Heroku - ask about in Office Hours */}
             <div className="carousel-caption d-none d-md-block">
               <h5>Note-Taker</h5>
-              <p>Note-Taker is an application available to you to take notes! You can reach the repo at (https://github.com/AmyLipscomb/note-taker)</p>
+              <p>Note-Taker is an application available to you to take notes! You can reach my repo at "https://github.com/AmyLipscomb/note-taker"</p>
             </div>
 
           </div>
@@ -57,7 +57,7 @@ const Project = () => {
             </a>
             <div className="carousel-caption d-none d-md-block">
               <h5>Text Editor</h5>
-              <p> I created a text-editor utilizing WebPack via JavaScript, and Node and deployed via Heroku! View it here.</p>
+              <p> I created a text-editor utilizing WebPack via JavaScript, and Node and deployed via Heroku! View it here. Link to my repo is here: "https://github.com/AmyLipscomb/text-editor-pwa".</p>
             </div>
           </div>
           <div className="carousel-item" id="picture6">
@@ -66,7 +66,7 @@ const Project = () => {
             </a>
             <div className="carousel-caption d-none d-md-block">
               <h5>Coding Quiz</h5>
-              <p> Have you ever wondered how much (or little) you know about coding? If you are a bit curious, then hopefully you'll find this coding quiz helpful!</p>
+              <p> Have you ever wondered how much (or little) you know about coding? If you are a bit curious, then hopefully you'll find this coding quiz helpful! Here's a link to my repo: "https://github.com/AmyLipscomb/code-quiz"</p>
             </div>
           </div>
         </div>
