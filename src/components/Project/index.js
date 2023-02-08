@@ -8,18 +8,16 @@ const Project = () => {
           <li data-target="#picture2" data-slide-to="1"></li>
           <li data-target="#picture3" data-slide-to="2"></li>
           <li data-target="#picture4" data-slide-to="3"></li>
+          <li data-target="#picture5" data-slide-to="4"></li>
+          <li data-target="#picture6" data-slide-to="5"></li>
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active" id="picture1">
-            <a href="https://floating-reef-00120.herokuapp.com/login"><img src="assets/images/Placeholder1.jpeg"
+            <a href="https://amylipscomb.github.io/password-generator/"><img src="assets/images/Placeholder1.jpeg"
               className="d-block w-100" alt="flower" />  </a>
             <div className="carousel-caption d-none d-md-block">
-              <h5>Grrrr'inder</h5>
-              <p>Grrrrr'inder is a pawsitively new way of connecting your furry friends with friends of
-                their own. Here, you can set up doggy play dates with the click of a few buttons! As an
-                owner, you must first create an account. Once that's done, you can create your pet's
-                profile, add more dogs if they want to get in on the action as well, and ultimately
-                reach out to another owner to set up your dog's pup play date.</p>
+              <h5>Password Generator</h5>
+              <p>Do you ever get set sick of thinking of new passwords? Or do you find yourself using the same password for all of your accounts? If either scenario sounds like you, then hopefully you'll find this password-generator helpful!</p>
             </div>
 
           </div>
@@ -36,10 +34,10 @@ const Project = () => {
             <a href="https://damp-escarpment-46573.herokuapp.com/"><img src="assets/images/Placeholder3.jpeg"
               className="d-block w-100" alt="flower" />
             </a>
-
+          {/* Note- taker app is not working on Heroku - ask about in Office Hours */}
             <div className="carousel-caption d-none d-md-block">
               <h5>Note-Taker</h5>
-              <p>Note-Taker is an application available to you to take notes! </p>
+              <p>Note-Taker is an application available to you to take notes! You can reach the repo at (https://github.com/AmyLipscomb/note-taker)</p>
             </div>
 
           </div>
@@ -51,6 +49,24 @@ const Project = () => {
               <h5>Back End Coding with ORM</h5>
               <p> View my walkthrough video to see how I've used object-relational mapping (ORM) to build the
                 back end for an e-commerce site!</p>
+            </div>
+          </div>
+          <div className="carousel-item" id="picture5">
+            <a href="https://hidden-harbor-78416.herokuapp.com/"><img
+              src="assets/images/Placeholder5.jpeg" className="d-block w-100" alt="flower" />
+            </a>
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Text Editor</h5>
+              <p> I created a text-editor utilizing WebPack via JavaScript, and Node and deployed via Heroku! View it here.</p>
+            </div>
+          </div>
+          <div className="carousel-item" id="picture6">
+            <a href="https://amylipscomb.github.io/code-quiz/"><img
+              src="assets/images/Placeholder6.jpeg" className="d-block w-100" alt="flower" />
+            </a>
+            <div className="carousel-caption d-none d-md-block">
+              <h5>Coding Quiz</h5>
+              <p> Have you ever wondered how much (or little) you know about coding? If you are a bit curious, then hopefully you'll find this coding quiz helpful!</p>
             </div>
           </div>
         </div>
