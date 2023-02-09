@@ -31,10 +31,9 @@ const Project = () => {
             </div>
           </div>
           <div className="carousel-item" id="picture3">
-            <a href="https://damp-escarpment-46573.herokuapp.com/"><img src="assets/images/Placeholder3.jpeg"
+            <a href="https://note-taker-amy.herokuapp.com/"><img src="assets/images/Placeholder3.jpeg"
               className="d-block w-100" alt="flower" />
             </a>
-          {/* Note- taker app is not working on Heroku - ask about in Office Hours */}
             <div className="carousel-caption d-none d-md-block">
               <h5>Note-Taker</h5>
               <p>Note-Taker is an application available to you to take notes! You can reach my repo at "https://github.com/AmyLipscomb/note-taker"</p>
