@@ -1,10 +1,12 @@
-# portfolio-react
+# My Portfolio
 <img src="https://img.shields.io/badge/License-MIT-ff69b4.svg">
 
 ## Description
 
-Creating a porfolio as a web-developer is important, because the website itself showcases the technical skills learned, as well as providing a unique space to showcase all of the projects that have been completed! My portfolio is a reflection of my coding journey, and has evolved greatly from the first revision. In order to make several changes, I used "React"! Visit my [portfolio](https://amylipscomb.github.io/portfolio-react/) and enjoy! 
+Creating a porfolio as a web-developer is important, because the website itself showcases the technical skills learned, as well as providing a unique space to showcase all of the projects that have been completed! My portfolio is a reflection of my coding journey, and has evolved greatly from the first revision. In order to make several changes, I used "React"! Visit my [portfolio](https://amylipscomb.github.io/portfolio-react/) and enjoy! &#128522;
 
+![amyportfolio](./public/assets/images/amyportfolio.png)
+![picture-carousel](./public/assets/images/picturecarousel.gif)
 
 ----
 ## Table of Contents 
