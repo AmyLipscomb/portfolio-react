@@ -32,32 +32,42 @@ To eventually deploy my portfolio via GitHub Pages, I had to import github pages
 ```
 npm i gh-pages
 ```
+```
+npm run deploy
+```
 
----
-
-## Usage
-
+Once deployed, if changes were made to my portfolio, the following commands needed to be run, in order to see them on my deployed site:
 
 ```
 npm run build
 ```
 
-Then to start the server, I typed the following command:
+```
+npm run deploy
+```
+
+---
+
+## Usage
+
+While using React, I noticed three major advantages:
+  1. You can easily see changes made to your code, which makes it easy when working on it and debugging.
+  2. It uses HTML, which makes it easier to use.
+  3. Reusable components are created. 
+
+
+I mentioned those three advantages because as I continued to set up my portfolio, it was clear to see. After I installed everything, I then added the HTML and CSS code from my previous version and updated it to fit React. I did this by creating a components folder, and within that folder, created folders for the following components- "Main Page", "Header", "Navigation", "Bio", "Project", and "Footer". Then within those component folders, created Javascript files, and inserted the HTML code within a function that would return the information I wanted. Then, in my "App.js" I imported the CSS, React, and all of the components. Once that was done, I then created an App function and within the function, inserted all of the components. Take a look at the code below.  
+
+![app.js](./public/assets/images/app.js.png)
+
+To see if everything worked properly, I typed in the following commands:
+
+```
+npm run build
+```
 ```
 npm start
 ```
-<!-- Below is what appears in the terminal, when the code works properly. 
-
-![npx](./Assets/npxrun.png)
-
-![npmrunbuild](./Assets/npmrunbuild.png)
-
-After I did that, the "dist" folder was created within the "client". Within the "dist" folder, several files were created as well, including an index.html, install.bundle.js, main.bundle.js, manifest.json, and a src-sw.js.  
-
-
-![distfolder](./Assets/distfolder.png) -->
-
-
 
 ---
 
@@ -86,7 +96,7 @@ None.
 
 * React
 * JavaScript
-<!-- * Heroku -->
+* GitHub Pages
 * VS Code
 
  ---
