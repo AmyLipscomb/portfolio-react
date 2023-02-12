@@ -16,10 +16,10 @@ const Footer = () => {
         </ul>
 
         <form>
-          <label for="name">Name </label>
-          <input type="text" id="name"></input>
-          <label for="email">Email</label>
-          <input type="text" id="email"></input>
+          <label htmlFor="name">Name </label>
+          <input type="text" name="name" required/>
+          <label htmlFor="email">Email</label>
+          <input type="email" name="email" required/>
           <button>Submit!</button>
         </form>
 

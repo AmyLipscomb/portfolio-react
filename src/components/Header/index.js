@@ -1,6 +1,23 @@
+import { useEffect, useState } from "react";
 const Header = () => {
+    const [fix, setFix] = useState(false)
+
+    function setFixed() {
+        if (window.scrollY >= 392) {
+            setFix(true)
+        } else {
+            setFix(false)
+        }
+    }
+    useEffect(() => {
+        window.addEventListener("scroll", setFixed)
+        return () => {
+            window.removeEventListener("scroll", setFixed)
+        }
+    }, [])
+
     return (
-        <header>
+        <header className={fix ? "fixed" : undefined}>
 
             <nav>
 
@@ -16,6 +33,10 @@ const Header = () => {
                     </li>
                     <li>
                         <a href="https://github.com/AmyLipscomb?tab=repositories">Github</a>
+                    </li>
+                    <li>
+                        <a href="/assets/images/htmlclass.png" target="_blank">Resume</a>
+                        {/* Replace with actual resume (will need to save resume in public folder) */}
                     </li>
                 </ul>
             </nav>
