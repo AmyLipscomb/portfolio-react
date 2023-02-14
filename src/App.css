@@ -116,8 +116,9 @@ body {
 
 /* CSS for the images */
 #carousel-items{
-  width: 70vw;
-  /* height: 70vh; */
+  /* width: 70vw;  <-- this is what's currently the size for the deployed version*/
+  width: 30vw;
+  height: 30vh;
 }
 
 
