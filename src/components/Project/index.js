@@ -13,7 +13,7 @@ const Project = () => {
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active" id="picture1">
-            <a href="https://amylipscomb.github.io/password-generator/"><img src="assets/images/passwordgenerator-2.jpg"
+            <a href="https://amylipscomb.github.io/password-generator/"><img src="assets/images/passwordgenerator-3.jpg"
               className="d-block w-100" alt="computer" />  </a>
             <div className="carousel-caption d-none d-md-block">
               {/* <h5>Password Generator</h5>
@@ -23,7 +23,7 @@ const Project = () => {
           </div>
           <div className="carousel-item" id="picture2">
             <a href="https://anthony-furjanic.github.io/brewsandchews/"><img
-             src="assets/images/brews&chews-2.jpg" className="d-block w-100" alt="beer" />
+             src="assets/images/brews&chews-3.jpg" className="d-block w-100" alt="beer" />
               {/* src="assets/images/Placeholder2.jpeg" className="d-block w-100" alt="flower" /> */}
             </a>
             <div className="carousel-caption d-none d-md-block">
@@ -32,7 +32,7 @@ const Project = () => {
             </div>
           </div>
           <div className="carousel-item" id="picture3">
-            <a href="https://note-taker-amy.herokuapp.com/"><img src="assets/images/note-taker-2.jpg"
+            <a href="https://note-taker-amy.herokuapp.com/"><img src="assets/images/note-taker-3.jpg"
             // src="assets/images/Placeholder3.jpeg"
               className="d-block w-100" alt="flower" />
             </a>
@@ -55,7 +55,7 @@ const Project = () => {
           </div>
           <div className="carousel-item" id="picture5">
             <a href="https://hidden-harbor-78416.herokuapp.com/"><img
-              src="assets/images/text-editor-2.jpg" className="d-block w-100" alt="text" />
+              src="assets/images/text-editor-3.jpg" className="d-block w-100" alt="text" />
               {/* src="assets/images/Placeholder5.jpeg" */}
             </a>
             <div className="carousel-caption d-none d-md-block">
@@ -65,7 +65,7 @@ const Project = () => {
           </div>
           <div className="carousel-item" id="picture6">
             <a href="https://amylipscomb.github.io/code-quiz/"><img
-              src="assets/images/codingquiz-1.jpg" className="d-block w-100" alt="quiz" />
+              src="assets/images/codingquiz-2.jpg" className="d-block w-100" alt="quiz" />
                {/* src="assets/images/Placeholder6.jpeg" */}
             </a>
             <div className="carousel-caption d-none d-md-block">

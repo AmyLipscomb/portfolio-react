@@ -117,8 +117,8 @@ body {
 /* CSS for the images */
 #carousel-items{
   /* width: 70vw;  <-- this is what's currently the size for the deployed version*/
-  width: 30vw;
-  height: 30vh;
+  width: 40vw;
+  height: 60vh;
 }
 
 
@@ -142,6 +142,7 @@ body {
   text-orientation: upright;
   font-size: 100px;
   font-family: 'Poiret One', cursive;
+  color: #f2e2d2;  /*Just added this line*/
   padding-top: 100px;
   padding-left: 300px;
   text-align: center;
