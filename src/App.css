@@ -22,6 +22,11 @@ nav {
 
 }
 
+a {
+  text-decoration: none;
+  color: #f2e2d2;
+}
+
 .fixed{
 position: fixed;
 left: 0;

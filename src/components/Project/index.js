@@ -10,6 +10,7 @@ const Project = () => {
           <li data-target="#picture4" data-slide-to="3"></li>
           <li data-target="#picture5" data-slide-to="4"></li>
           <li data-target="#picture6" data-slide-to="5"></li>
+          <li data-target="#picture7" data-slide-to="6"></li>
         </ol>
         <div className="carousel-inner">
           <div className="carousel-item active" id="picture1">
@@ -23,7 +24,7 @@ const Project = () => {
           </div>
           <div className="carousel-item" id="picture2">
             <a href="https://anthony-furjanic.github.io/brewsandchews/"><img
-             src="assets/images/brews&chews-3.jpg" className="d-block w-100" alt="beer" />
+              src="assets/images/brews&chews-3.jpg" className="d-block w-100" alt="beer" />
               {/* src="assets/images/Placeholder2.jpeg" className="d-block w-100" alt="flower" /> */}
             </a>
             <div className="carousel-caption d-none d-md-block">
@@ -33,7 +34,7 @@ const Project = () => {
           </div>
           <div className="carousel-item" id="picture3">
             <a href="https://note-taker-amy.herokuapp.com/"><img src="assets/images/note-taker-3.jpg"
-            // src="assets/images/Placeholder3.jpeg"
+              // src="assets/images/Placeholder3.jpeg"
               className="d-block w-100" alt="flower" />
             </a>
             <div className="carousel-caption d-none d-md-block">
@@ -66,7 +67,17 @@ const Project = () => {
           <div className="carousel-item" id="picture6">
             <a href="https://amylipscomb.github.io/code-quiz/"><img
               src="assets/images/codingquiz-2.jpg" className="d-block w-100" alt="quiz" />
-               {/* src="assets/images/Placeholder6.jpeg" */}
+              {/* src="assets/images/Placeholder6.jpeg" */}
+            </a>
+            <div className="carousel-caption d-none d-md-block">
+              {/* <h5>Coding Quiz</h5>
+              <p> Have you ever wondered how much (or little) you know about coding? If you are a bit curious, then hopefully you'll find this coding quiz helpful! Here's a link to my repo: "https://github.com/AmyLipscomb/code-quiz"</p> */}
+            </div>
+          </div>
+          <div className="carousel-item" id="picture7">
+            <a href="https://grrrrinder2.herokuapp.com/"><img
+              src="assets/images/grrrr'inder-1.jpg" className="d-block w-100" alt="dog" />
+              {/* src="assets/images/Placeholder6.jpeg" */}
             </a>
             <div className="carousel-caption d-none d-md-block">
               {/* <h5>Coding Quiz</h5>
