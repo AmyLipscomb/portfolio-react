@@ -35,7 +35,8 @@ const Header = () => {
                         <a href="https://github.com/AmyLipscomb?tab=repositories">Github</a>
                     </li> */}
                     <li>
-                        <a href="assets/images/portfolio_resume.pdf" target="_blank">Resume</a>
+                        <a href="assets/images/amylipscomb_webdeveloper_resume_v1.pdf"
+                         target="_blank">Resume</a>
                         {/* Replace with actual resume (will need to save resume in public folder) */}
                     </li>
                 </ul>
